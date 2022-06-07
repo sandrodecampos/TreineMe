@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #7D7987;
+  --secondary-color: #89C5CC;
+  --text-color: #000000;
+  --button-color: #69B99D;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100rem;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  margin-bottom: 5.8rem;
+}
+
+header ul {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+li, h1 {
+  font-family: 'Mulish', sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 19.9rem;
+  align-items: center;
+}
+
+#main-text {
+  width: 43.8rem;
+}
+
+h1 {
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: 400;
+}
+
+h1 span {
+  color: var(--secondary-color);
+}
+
+main p {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  margin-top: 4.1rem;
+  margin-bottom: 4.1rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: none;
+  text-transform: uppercase;
+  border-radius: .4rem;
+  width: 17.9rem;
+  height: 5.6rem;
+  background-color: var(--button-color);
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: 8.5rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+footer a:hover {
+  color: var(--secondary-color);
+}
+
+footer img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
