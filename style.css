@@ -18,20 +18,20 @@ body {
   margin: auto;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   margin-top: 6.5rem;
   margin-bottom: 5.8rem;
 }
 
-header ul {
+nav ul {
   display: flex;
   gap: 4.8rem;
   list-style: none;
 }
 
-header a {
+nav a {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 1.8rem;
@@ -44,12 +44,12 @@ li, h1 {
 
 main {
   display: flex;
-  gap: 19.9rem;
+  gap: 9.9rem;
   align-items: center;
 }
 
-#main-text {
-  width: 43.8rem;
+section {
+  width: 48.9rem;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 span {
   color: var(--secondary-color);
 }
 
-main p {
+section p {
   color: var(--primary-color);
   font-size: 1.4rem;
   line-height: 2.8rem;
